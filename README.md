@@ -4,10 +4,14 @@ Backend for the **Epiroc EAE Full-Stack Developer Challenge**. Recreates a vehic
 
 ## Submission links
 
-- **Live app**: _TBD_
-- **Backend API**: _TBD_
-- **Read-only Postgres**: _TBD_
+- **Live app**: _TBD (pending frontend deploy)_
+- **Backend API**: <https://vehicle-dashboard-x68a.onrender.com>
+  - Example: <https://vehicle-dashboard-x68a.onrender.com/api/state>
+  - Health: <https://vehicle-dashboard-x68a.onrender.com/actuator/health>
+- **Read-only Postgres**: `postgresql://readonly:NatNeon2024@ep-fancy-salad-ak41kpwn.c-3.us-west-2.aws.neon.tech/neondb?sslmode=require`
 - **Frontend repo**: _TBD_
+
+> Note: the Render free tier idles after ~15 min of inactivity. The first request after idle takes ~30 s to cold-start.
 
 ## Tech stack
 
